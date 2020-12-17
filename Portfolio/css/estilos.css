@@ -43,6 +43,11 @@ header nav a:hover {
     color: grey;
     font-size: 18px;
 }
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 main figure h1{
     position: absolute;
     top: 25%;
@@ -50,11 +55,6 @@ main figure h1{
     font-family: 'Montserrat', sans-serif;
     color: white;
     transition: 2s;
-}
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
 }
 main figure p{
     position: absolute;
